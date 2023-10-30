@@ -16,7 +16,7 @@ public class Select {
                     " name varchar(20) not null,\n" +
                     " phone varchar(20) default null\n" +
                     ");");
-            System.out.println("Tables created.");
+            System.out.println("Tables created...");
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
