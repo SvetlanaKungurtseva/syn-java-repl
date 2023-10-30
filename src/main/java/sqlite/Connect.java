@@ -11,7 +11,7 @@ public class Connect { // Подключаемся к базе
             String url = "jdbc:sqlite:sq.db";
             //String url = "jdbc:sqlite:zb.db";
             co = DriverManager.getConnection(url);
-            System.out.println("Connection to SQLite has been established!!!");
+            System.out.println("Connection to SQLite has been established");
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
